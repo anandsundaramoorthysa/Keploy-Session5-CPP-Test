@@ -9,8 +9,6 @@
 - [Screenshot](#screenshot)
 - [Contact Me](#contact-me)
 
----
-
 ## 📌 About Project
 
 This repository is part of **Keploy API Fellowship – Session 5**.  
@@ -22,8 +20,6 @@ It demonstrates a **C++ Unit Test Generator** system using:
 - Test automation with `g++` and `gcov` for coverage
 
 The project focuses on generating, refining, and running unit tests on real C++ code using LLMs and open-source tools.
-
----
 
 ## ⚙️ Installation
 
@@ -56,8 +52,6 @@ pip install pyyaml
 ollama pull deepseek-coder
 ```
 
----
-
 ## 🚀 Use / Run the Project
 
 ### 1. Generate Unit Tests using LLM:
@@ -76,16 +70,12 @@ It generates:
 
 * `tests/test_student.cpp`
 
----
-
 ### 2. Compile and Run the Test Binary:
 
 ```bash
 g++ -std=c++17 tests/test_student.cpp src/student.cpp -o student_test.exe -lgtest -lgtest_main -lpthread
 ./student_test.exe
 ```
-
----
 
 ## ✨ Features
 
@@ -95,15 +85,11 @@ g++ -std=c++17 tests/test_student.cpp src/student.cpp -o student_test.exe -lgtes
 * ✅ Coverage-ready with `gcov`
 * ✅ Lightweight, offline-friendly development
 
----
-
 ## 🖼️ Screenshot
 
 Test result output:
 
 ![Test Result](test_result.png)
-
----
 
 ## 📬 Contact Me
 
