@@ -1,0 +1,45 @@
+# Compiled binary
+*.exe
+*.out
+*.o
+*.obj
+
+# Coverage data
+*.gcno
+*.gcda
+*.gcov
+coverage/
+coverage_report.txt
+
+# Test binaries
+test_bin*
+student_test*
+
+# VS Code config
+.vscode/
+*.code-workspace
+
+# CMake (if added later)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs and temp
+*.log
+build_logs/
+
+# Ollama / LLM artifacts
+generated_tests/
+*.json
+*.yaml.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# Backup files
+*~
+*.swp
+.DS_Store
+Thumbs.db

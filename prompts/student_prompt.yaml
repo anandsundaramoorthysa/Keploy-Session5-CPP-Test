@@ -1,0 +1,10 @@
+test_format: gtest
+min_coverage: 90%
+avoid_duplicates: true
+improve_assertions: true
+include_libraries:
+  - gtest
+  - iostream
+prompt_tone: strict
+output_structure:
+  - test_function_per_unit

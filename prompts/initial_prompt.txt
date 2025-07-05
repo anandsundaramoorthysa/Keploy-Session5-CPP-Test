@@ -1,0 +1,7 @@
+Please generate Google Test unit tests for the following C++ file.
+The tests should:
+- Cover all functions including edge cases
+- Use clean and readable formatting
+- Include required headers like gtest and any others needed
+- Avoid duplicate or redundant test cases
+- Use proper naming conventions for test functions
